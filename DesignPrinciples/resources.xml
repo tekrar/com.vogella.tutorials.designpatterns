@@ -1,0 +1,15 @@
+<section id="resources">
+	<title>Links and Literature</title>
+	<para>
+		<ulink url="https://people.apache.org/~fhanik/kiss.html">
+			https://people.apache.org/~fhanik/kiss.html
+			about the KISS Design Principle.
+		</ulink>
+		<ulink
+			url="https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29">
+			https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29
+			Wikipedia Entry
+			about the SOLID Design Principle.
+		</ulink>
+	</para>
+</section>

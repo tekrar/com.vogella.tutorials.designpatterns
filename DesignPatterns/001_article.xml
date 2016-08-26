@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Design Patterns in Java - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2007</year>
+			<year>2008</year>
+			<year>2009</year>
+			<year>2010</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>30.12.2010</pubdate>
+		<releaseinfo>
+			<para>Version 0.4</para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Design Pattern</title>
+			<para> Design Patterns are best practices how to solve common know
+				problems. This article will give an overview of best practices in
+				object-orientated programming and has pointers to some
+				design-pattern tutorials.
+			</para>
+			<para></para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/100_introduction.xml" />
+	<?dbhtml-include href="../../web/advertisement/inBetween01"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/120_ooprinciples.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/200_pattern.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/DesignPatterns"?>
+</article>

@@ -1,0 +1,21 @@
+<section id="pattern">
+	<title>Pattern</title>
+	<para> Please see the following description for details on the design
+		pattern.</para>
+	<para>
+		<ulink
+			url="http://www.vogella.com/tutorials/DesignPatternSingleton/article.html">Singleton</ulink>
+	</para>
+	<para>
+		<ulink
+			url="http://www.vogella.com/tutorials/DesignPatternObserver/article.html">Observer</ulink>
+	</para>
+	<para>
+		<ulink
+			url="http://www.vogella.com/tutorials/DesignPatternFacade/article.html">Facade</ulink>
+	</para>
+	<para>
+		<ulink
+			url="http://www.vogella.com/tutorials/DesignPatternAdapter/article.html">Adapter</ulink>
+	</para>
+</section>

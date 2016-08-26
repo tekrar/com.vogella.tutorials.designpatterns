@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Implementing the builder pattern in Java 8 - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2013</year>
+			<year>2013</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>010.12.2014</pubdate>
+		<releaseinfo>
+			<para>Version 1.1 </para>
+		</releaseinfo>
+		<abstract id="abstract">
+			<title>Builder</title>
+			<para> This article describes the "Builder" design pattern and its
+				implementation in the programming language Java with Java 8.
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="100_builder.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/DesignPatternBuilder"?>
+</article>

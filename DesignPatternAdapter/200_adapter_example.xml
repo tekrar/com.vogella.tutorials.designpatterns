@@ -1,0 +1,108 @@
+<section id="adapter_example">
+	<title>Example for an adapter</title>
+	<section>
+		<title>Target</title>
+		<para>Let's try to implement a real world adapter like a power
+			adapter.
+			Basically different countries sometimes have
+			different electrical
+			sockets and in order to make different electrical sockets work
+			together with a different plugs the
+			use of adapters is necessary.
+		</para>
+		<para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/adapter.jpg" scale="30" />
+				</imageobject>
+				<textobject>
+					<phrase>Adapter in real life</phrase>
+				</textobject>
+			</mediaobject>
+		</para>
+	</section>
+	<section>
+		<title>The model for getting electricity</title>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
+					href="./examples/general/GermanElectricalSocket.java" />
+			</programlisting>
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
+					href="./examples/general/GermanPlugConnector.java" />
+			</programlisting>
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKElectricalSocket.java" />
+			</programlisting>
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKPlugConnector.java" />
+			</programlisting>
+		</para>
+		<para>
+			These classes make clear that only
+			<code>UKPlugConnectors</code>
+			can be
+			plugged into a
+			<code>UKElectricalSocket</code>
+			and only
+			<code>GermanPlugConnectors</code>
+			can be
+			plugged into
+			a
+			<code>GermanElectricalSocket</code>
+			.
+		</para>
+		<para>
+			Fortunately an
+			<code>UKElectricalSocket</code>
+			can also be used with a
+			<code>GermanPlugConnector</code>
+			by using an adapter. This can be archived by wrapping a
+			<code>GermanPlugConnector</code>
+			in a
+			<code>UKPlugConnector</code>
+			.
+		</para>
+	</section>
+	<section>
+		<title>Creating an adapter for plug connectors</title>
+		<para>
+			To use the
+			<code>UKElectricalSocket</code>
+			's
+			<code>plugIn</code>
+			method an
+			<code>UKPlugConnector</code>
+			has to be used. Therefore the
+			<code>GermanPlugConnector</code>
+			is wrapped in a new class, which implements the
+			<code>UKPlugConnector</code>
+			interface.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/GermanToUKAdapter.java" />
+			</programlisting>
+		</para>
+		<para>The adapter can then be used like this:</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/ExampleUsage.java" />
+			</programlisting>
+		</para>
+		<para>
+			With this adapter in between the
+			<code>GermanPlugConnector</code>
+			can now also make use of the
+			<code>UKElectricalSocket</code>
+			.
+		</para>
+	</section>
+</section>

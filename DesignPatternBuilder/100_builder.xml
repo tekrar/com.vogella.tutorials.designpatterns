@@ -1,0 +1,62 @@
+<section id="builderpattern">
+	<title>Builder</title>
+	<section id="builder_definition">
+		<title>Definition</title>
+		<para>
+			<emphasis>
+				The builder pattern provides a build object which is used
+				to construct a complex object called the product. It encapsulates
+				the logic of constructing the different pieces of the product.
+			</emphasis>
+		</para>
+	</section>
+
+	<section id="builder_example">
+		<title>Example</title>
+		<para>
+			Typically the builder pattern is implemented by an class which
+			has
+			several methods to configure the product. These methods typically
+			return the builder object, this allows to use the builder via a
+			fluent API, e.g, by calling methods directly after each other. Once
+			the product is
+			completely configured a
+			<code>build()</code>
+			method is called to construct the object.
+		</para>
+		<para>Assume you have a data model like the following.</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/Task.java" />
+			</programlisting>
+		</para>
+		<para>Before Java 8 your builder would looks like the following.
+		</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/TaskBuilder.java" />
+			</programlisting>
+		</para>
+		<para>And here is how you can use it.</para>
+		<para>
+			<programlisting language="java">
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+					parse="text" href="./examples/MainTest.java" />
+			</programlisting>
+		</para>
+
+	</section>
+
+	<section id="builder_evaluation">
+		<title>Evaluation</title>
+		<para>
+			The builder pattern simplifies the creation of objects. It also
+			simplifies the code as your do not have to call a complex constructor
+			or call several setter methods on the created object.
+		</para>
+		<para>The builder pattern can be used to create an immutable class.
+		</para>
+	</section>
+</section>

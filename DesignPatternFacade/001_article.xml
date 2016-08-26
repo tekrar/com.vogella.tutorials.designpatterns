@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<article>
+	<articleinfo>
+		<title>Facade Design Pattern in Java - Tutorial</title>
+		<author>
+			<firstname>Lars</firstname>
+			<surname>Vogel</surname>
+		</author>
+		<copyright>
+			<year>2007</year>
+			<holder>vogella GmbH</holder>
+		</copyright>
+		<pubdate>01.07.2009</pubdate>
+		<releaseinfo>
+			<para>Version 0.1 </para>
+		</releaseinfo>
+		
+		<abstract id="abstract">
+			<title>Facade</title>
+			<para> This article describes the Design Pattern "Facade" and its
+				usage in the programming language Java.
+			</para>
+		</abstract>
+	</articleinfo>
+	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/200_facade.xml" />
+	<?dbhtml-include href="../../web/advertisement/beforeSupport"?>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../10_Include/support.xml" />	
+	<?dbhtml-include href="../../web/advertisement/afterSupport"?>		
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="resources.xml" />
+	<?dbhtml-include href="../../web/vgwort/DesignPatternFacade"?>
+</article>
