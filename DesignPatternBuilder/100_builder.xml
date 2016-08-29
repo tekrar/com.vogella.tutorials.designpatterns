@@ -1,19 +1,19 @@
 <section id="builderpattern">
-	<title>Builder</title>
+== Builder
 	<section id="builder_definition">
-		<title>Definition</title>
-		<para>
+=== Definition
+		
 			<emphasis>
 				The builder pattern provides a build object which is used
 				to construct a complex object called the product. It encapsulates
 				the logic of constructing the different pieces of the product.
 			</emphasis>
-		</para>
+		
 	</section>
 
 	<section id="builder_example">
-		<title>Example</title>
-		<para>
+=== Example
+		
 			Typically the builder pattern is implemented by an class which
 			has
 			several methods to configure the product. These methods typically
@@ -21,42 +21,42 @@
 			fluent API, e.g, by calling methods directly after each other. Once
 			the product is
 			completely configured a
-			<code>build()</code>
+			`build()`
 			method is called to construct the object.
-		</para>
-		<para>Assume you have a data model like the following.</para>
-		<para>
+		
+		Assume you have a data model like the following.
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/Task.java" />
 			</programlisting>
-		</para>
-		<para>Before Java 8 your builder would looks like the following.
-		</para>
-		<para>
+		
+		Before Java 8 your builder would looks like the following.
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/TaskBuilder.java" />
 			</programlisting>
-		</para>
-		<para>And here is how you can use it.</para>
-		<para>
+		
+		And here is how you can use it.
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="./examples/MainTest.java" />
 			</programlisting>
-		</para>
+		
 
 	</section>
 
 	<section id="builder_evaluation">
-		<title>Evaluation</title>
-		<para>
+=== Evaluation
+		
 			The builder pattern simplifies the creation of objects. It also
 			simplifies the code as your do not have to call a complex constructor
 			or call several setter methods on the created object.
-		</para>
-		<para>The builder pattern can be used to create an immutable class.
-		</para>
+		
+		The builder pattern can be used to create an immutable class.
+		
 	</section>
 </section>

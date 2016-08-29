@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Design Principles in Java - Tutorial</title>
+=== Design Principles in Java - Tutorial
 		<author>
 			<firstname>Simon</firstname>
 			<surname>Scholz</surname>
@@ -12,16 +12,16 @@
 		</copyright>
 		<pubdate>09.11.2015</pubdate>
 		<releaseinfo>
-			<para>Version 0.1</para>
+			Version 0.1
 		</releaseinfo>
 
 		<abstract id="abstract">
-			<title>Design Principles</title>
-			<para>
+	=== Design Principles
+			
 				Obeying good design principles in Java is essential to create
 				robust and modular application.
-			</para>
-			<para></para>
+			
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

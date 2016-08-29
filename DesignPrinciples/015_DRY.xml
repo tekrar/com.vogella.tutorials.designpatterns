@@ -1,17 +1,17 @@
 <section id="java_DRY">
-	<title>DRY Principle</title>
-	<para>Dry is a shortcut for "Don't repeat yourself". For software it
+== DRY Principle
+	Dry is a shortcut for "Don't repeat yourself". For software it
 		means that it is good to rely on good libraries to achieve a certain
 		functionality rather than implementing it once again.
-	</para>
-	<para>So the first good step is to look for existing solution for a
+	
+	So the first good step is to look for existing solution for a
 		certain problem.
-	</para>
-	<para>The other part is to implement the code in an abstract manner so
+	
+	The other part is to implement the code in an abstract manner so
 		that it can be reused by others, who might face not exactly the same
 		issues, but similar ones.
-	</para>
-	<para>An example could be the creator of a file dialog, which might
+	
+	An example could be the creator of a file dialog, which might
 		just wanted to open particular files, but implemented it in a way so
-		that it is able to handle any file.</para>
+		that it is able to handle any file.
 </section>

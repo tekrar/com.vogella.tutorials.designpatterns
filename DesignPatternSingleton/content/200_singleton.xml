@@ -1,61 +1,61 @@
 <section id="singleton">
-	<title>Singletons in Java</title>
+== Singletons in Java
 	<section id="singleton_overview">
-		<title>Overview</title>
-		<para>
+=== Overview
+		
 			A singleton in Java is a class for which only one instance can
 			be
 			created provides a global point of
 			access this instance. The
 			singleton pattern describe how this can be archived.
-		</para>
-		<para> Singletons are useful to provide a unique source of data or
+		
+		 Singletons are useful to provide a unique source of data or
 			functionality to other
 			Java Objects. For example you may use a
 			singleton to access your data model from within your application or
 			to define logger which the rest of the application can use. 
-		</para>
+		
 	</section>
 	<section id="singleton_code">
-		<title>Code Example</title>
-		<para>The possible implementation of Java depends on the version of
-			Java you are using.</para>
-		<para> As of Java 6 you can singletons with a single-element enum
+=== Code Example
+		The possible implementation of Java depends on the version of
+			Java you are using.
+		 As of Java 6 you can singletons with a single-element enum
 			type. This way is currently the best way to implement a
 			singleton in
 			Java 1.6 or later according to tht book ""Effective Java from
 			Joshua
-			Bloch.</para>
-		<para>
+			Bloch.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/singleton/MyEnumSingleton.java" />
 			</programlisting>
-		</para>
-		<para> Before Java 1.6 a class which should be a singleton can be
-			defined like the following.</para>
-		<para>
+		
+		 Before Java 1.6 a class which should be a singleton can be
+			defined like the following.
+		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/singleton/Singleton.java" />
 			</programlisting>
-		</para>
-		<para>
+		
+		
 
-		</para>
+		
 	</section>
 	<section id="singleton_evalutation">
-		<title>Evaluation</title>
-		<para> A static class with static method would result in the same
+=== Evaluation
+		 A static class with static method would result in the same
 			functionality as a singleton. As singletons are define using an
 			object orientated approach it is in general advised to work with
-			singletons.</para>
-		<para> Singleton violate the "One Class, one responsibility" principle
+			singletons.
+		 Singleton violate the "One Class, one responsibility" principle
 			as they are used to manage its one instance and the functionality of
-			the class.</para>
-		<para> A singleton cannot be subclassed as the constructor is declared
-			private.</para>
-		<para> If you are using multiple classloaders then several instances
-			of the singleton can get created.</para>
+			the class.
+		 A singleton cannot be subclassed as the constructor is declared
+			private.
+		 If you are using multiple classloaders then several instances
+			of the singleton can get created.
 	</section>
 </section>

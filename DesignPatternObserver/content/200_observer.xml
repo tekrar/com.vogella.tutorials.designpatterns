@@ -1,12 +1,12 @@
 <section id="observer" role="wrapper">
-	<title>Observer Pattern</title>
+== Observer Pattern
 
 	<section id="observer_definition">
-		<title>Definition</title>
+=== Definition
 		<indexterm>
 			<primary>Observer Pattern</primary>
 		</indexterm>
-		<para>
+		
 			The
 			<wordasword>observer</wordasword>
 			pattern defines a one-to-many dependency
@@ -15,20 +15,20 @@
 			all of its dependents are notified and
 			updated
 			automatically.
-		</para>
-		<para>
+		
+		
 			The object which is being watched is called the
 			<wordasword>subject</wordasword>.
 			The objects which are watching the state changes are called
 			<wordasword>observers</wordasword>
 			or
 			<wordasword>listeners</wordasword>.
-		</para>
+		
 	</section>
 
 	<section id="observer_example">
-		<title>Example</title>
-		<para>
+=== Example
+		
 			The
 			observer
 			pattern is very common in Java. For example, you can
@@ -39,14 +39,14 @@
 			the
 			listener is
 			notified and performs a certain action.
-		</para>
-		<para>
+		
+		
 			But the observer pattern is not limited to single user interface
 			components. For example, you could have a part A in your application
 			which displays the current
 			temperature.
-		</para>
-		<para>
+		
+		
 			Another part B displays a green light if the temperature is
 			above 20
 			degree
@@ -54,71 +54,71 @@
 			registers itself as a
 			listener to
 			Part A.
-		</para>
-		<para>
+		
+		
 			If the temperature in part A is changed, an event is
 			triggered.
 			This event is sent to all
 			registered listeners, as, for example, part B.
 			Part B receives the changed data and
 			can adjust its display.
-		</para>
-		<para>
+		
+		
 			The following example code shows such a listener implementation
 			for a button.
-		</para>
-		<para>
+		
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/observer/Button.java" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="observer_code">
-		<title>Code example</title>
-		<para>
+=== Code example
+		
 			In the following example the observer is watching changes in
 			a
-			<code>List</code>
+			`List`
 			of
-			<code>People</code>
+			`People`
 			objects. For this example create a new Java project called
 			<wordasword>com.vogella.java.designpattern.observer</wordasword>
 			and the following classes.
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/observer/MyModel.java" />
 			</programlisting>
-		</para>
+		
 
-		<para>
+		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/observer/MyObserver.java" />
 			</programlisting>
-		</para>
+		
 
 		<para language="java">
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
 					parse="text" href="../examples/observer/Main.java" />
 			</programlisting>
-		</para>
+		
 	</section>
 
 	<section id="observer_s1s2d">
-		<title>Evaluation</title>
-		<para>
+=== Evaluation
+		
 			The observer pattern allows for the
 			<wordasword>Open Closed</wordasword>
 			principle. This principle states that a class should be open for
 			extensions without the need to change the class.
-		</para>
-		<para>
+		
+		
 			Using the observer pattern a
 			<wordasword>subject</wordasword>
 			can register an unlimited number of observers. If
@@ -129,11 +129,11 @@
 			subject
 			is
 			necessary.
-		</para>
-		<para>
+		
+		
 			Using the listener pattern decouples the subject from its
 			observers. Only the observers have direct knowledge about the
 			subject.
-		</para>
+		
 	</section>
 </section>

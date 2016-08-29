@@ -1,14 +1,14 @@
 <section id="adapter_overview">
-	<title>The adapter pattern</title>
-	<para>
+== The adapter pattern
+	
 		The adapter pattern converts the interface of a class
 		into
 		another interface the clients expects. Adapter lets
 		classes work
 		together that couldn't otherwise because of
 		incompatible interfaces.
-	</para>
-	<para>
+	
+	
 		The adapter pattern is widely known in software development and
 		used in many programming languages, e.g., Java.
 		This pattern mainly adapts one object to another one, which
@@ -16,15 +16,15 @@
 		another
 		object, so
 		that it fits to another desired interface.
-	</para>
+	
 
-	<para>
+	
 		Adapter allows to reuse existing coding without changing
 		it. The
 		adapter makes the conversion between the different
 		interfaces.
-	</para>
-	<para>
+	
+	
 		In comparison to a decorator pattern, the adapter pattern only
 		converts
 		interfaces, while the decorator pattern
@@ -33,6 +33,6 @@
 		existing interface. Therefore the
 		decorator does not change the
 		existing interface.
-	</para>
+	
 
 </section>

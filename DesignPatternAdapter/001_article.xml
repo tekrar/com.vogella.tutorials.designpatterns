@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Adapter Design Pattern in Java - Tutorial</title>
+=== Adapter Design Pattern in Java - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -16,14 +16,14 @@
 		</copyright>
 		<pubdate>26.10.2015</pubdate>
 		<releaseinfo>
-			<para>Version 1.1</para>
+			Version 1.1
 		</releaseinfo>
 
 		<abstract id="abstract">
-			<title>Adapter</title>
-			<para> This article describes the Design Pattern "Adapter" and its
+	=== Adapter
+			 This article describes the Design Pattern "Adapter" and its
 				usage in the programming language Java.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

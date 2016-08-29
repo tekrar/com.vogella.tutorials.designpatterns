@@ -1,13 +1,13 @@
 <section id="120_ooprincipless1a">
-	<title>Object Orientated Programming</title>
-	<para>
+== Object Orientated Programming
+	
 		OO programming suggests that you use the following principles
 		during the design of a software. The following are not "Design
 		Principles" but a repetition of a good OO design.
-	</para>
+	
 	<section id="chapter20s1s2a">
-		<title>Encapsulation</title>
-		<para>
+=== Encapsulation
+		
 			In general a general manipulation of an object's variables
 			by
 			other objects or classes is discouraged to ensure data
@@ -17,17 +17,17 @@
 			access variables. Java deletes objects
 			which are not longer used
 			(garbage collection).
-		</para>
+		
 
 	</section>
 
 	<section id="chapter20s1as2b">
-		<title>Abstraction</title>
-		<para>
+=== Abstraction
+		
 			Java support the abstraction of data definition and concrete
 			usage of this definition.
-		</para>
-		<para>
+		
+		
 			The concept is divided from the concrete which means you
 			first
 			define a class containing the variables and the
@@ -36,22 +36,22 @@
 			objects which then all behave like the
 			class defined it.
 
-		</para>
-		<para>
+		
+		
 			A class is the definition of the behavior and data. A class
 			can
 			not be directly be used.
-		</para>
+		
 
-		<para>
+		
 			A object in an instance of this class and is the real object
 			which can be worked with.
-		</para>
+		
 	</section>
 
 	<section id="chapter20s1as2c">
-		<title>Polymorphisms</title>
-		<para>
+=== Polymorphisms
+		
 			The ability of object variables to contain objects of
 			different
 			classes. If class X1 is a subclass of class X then
@@ -59,60 +59,60 @@
 			defined with a parameter for an object X
 			can also get called which an
 			object X1.
-		</para>
-		<para>
+		
+		
 			If you define a supertype for a group of classes any
 			subclass of
 			that supertype can be substituted where the
 			supertype is expected.
-		</para>
-		<para>
+		
+		
 			If you use an interface as a polymorphic type any object
 			which
 			implements this interface can be used as arguments.
-		</para>
+		
 	</section>
 
 	<section id="chapter20s1as2d">
-		<title>Inheritance</title>
-		<para>
+=== Inheritance
+		
 			Inheritance allows that classes can be based on each other.
 			If a
 			class A inherits another class B this is called "class
 			A extends class
 			B".
-		</para>
-		<para>
+		
+		
 			For example you can define a base class which provides
 			certain
 			logging functionality and this class is extended by
 			another class
 			which adds email notification to the
 			functionality.
-		</para>
+		
 
 	</section>
 	<section id="120_ooprincipless1s2a">
-		<title>Delegation</title>
+=== Delegation
 
-		<para>
+		
 			Delegation is when you hand over the responsibility for a
 			particular task to another class or method.
-		</para>
-		<para>
+		
+		
 			If you need to use functionality in another class but you
 			do not
 			want to change that functionality then use delegation
 			instead of
 			inheritance.
-		</para>
+		
 
 	</section>
 
 	<section id="120_ooprincipless1s2b">
-		<title>Composition</title>
+=== Composition
 
-		<para>
+		
 			When you refer to a whole family of behavior then you use
 			composition. Here you program against an interface and then
 			any class
@@ -121,48 +121,48 @@
 			composition the composition class is still
 			defined in the calling
 			class.
-		</para>
-		<para>
+		
+		
 			When you use composition, the composing object owns the
 			behaviors is uses and they stop existing as soon as the
 			composing
 			object does.
 
-		</para>
+		
 
 	</section>
 
 	<section id="120_ooprincipless1s2c">
-		<title>Aggregation</title>
+=== Aggregation
 
-		<para>
+		
 			Aggregation allows you to use behavior from another class
 			without limiting the lifetime of those behaviors.
-		</para>
-		<para>
+		
+		
 			Aggregation is when one class is used as part of another
 			class
 			but still exists outside of that class.
-		</para>
+		
 
 	</section>
 
 
 	<section id="120_ooprincipless1s2d">
-		<title>Design by contract</title>
+=== Design by contract
 
-		<para>
+		
 			Programming by contract assumes both sides in a transaction
 			understand what actions generate what behavior and will
 			abide by that
 			contact.
-		</para>
-		<para>
+		
+		
 			Methods usually return null or unchecked exceptions when
 			errors
 			occurs in programming by contract environment.
-		</para>
-		<para>
+		
+		
 			If you believe that a method should not get called in a
 			certain
 			way just throw an unchecked runtime exception. This
@@ -179,14 +179,14 @@
 			your software you should crash immediately and not later
 			in the
 			program because then it is hard to find the error.
-		</para>
+		
 
 	</section>
 
 	<section id="120_ooprincipless1s2e">
-		<title>Cohesion</title>
-		<para>A system should have a high cohesion.</para>
-		<para>
+=== Cohesion
+		A system should have a high cohesion.
+		
 			Cohesion is a measure of how strongly-related and focused
 			the
 			responsibilities of a single class are. In
@@ -195,43 +195,43 @@
 			responsibilities to classes in
 			a way that keeps cohesion
 			high.
-		</para>
-		<para>
+		
+		
 			Code readability and the likelihood of reuse is
 			increased, while
 			complexity is kept manageable, in a
 			highly-cohesive system.
-		</para>
-		<para>Therefore you should avoid classes which have several
+		
+		Therefore you should avoid classes which have several
 			responsibilities, e.g. a Logger class should only be responsible for
 			logging.
-		</para>
+		
 	</section>
 
 	<section id="120_ooprincipless1s2f">
-		<title>The Principle of Least Knowledge</title>
-		<para>
+=== The Principle of Least Knowledge
+		
 			<emphasis>Talk only to your immediate friends.</emphasis>
-		</para>
-		<para>Also known as Law of Demeter.</para>
+		
+		Also known as Law of Demeter.
 	</section>
 
 	<section id="120_ooprincipless1s2g">
-		<title>The Open Closed Principle</title>
-		<para>
+=== The Open Closed Principle
+		
 			<emphasis>
 				Software entities like classes, modules and functions
 				should be open for extension but closed for
 				modifications.
 			</emphasis>
-		</para>
-		<para>
+		
+		
 			This principles encourages developers to write code that can
 			be
 			easily extended with only minimal or no changes to
 			existing code.
-		</para>
-		<para>
+		
+		
 			An example for a good application of this principles would
 			be
 			that a certain class calls internally an abstract class
@@ -244,15 +244,15 @@
 			concrete calls of this abstract class without
 			changing the
 			code of the class which uses this abstract class.
-		</para>
-		<para>
+		
+		
 			Another excellent example is the Eclipse Extension Point
 			method.
 			Eclipse Plugins or Eclipse based application can
 			define extension
 			points where other plugs-ins can later add
 			functionality.
-		</para>
+		
 	</section>
 
 </section>

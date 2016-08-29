@@ -1,15 +1,15 @@
 <section id="designpattern_overview">
-	<title>Design pattern in software development</title>
-	<para>Design patterns are proven solutions approaches to specific
+== Design pattern in software development
+	Design patterns are proven solutions approaches to specific
 		problems. A design pattern is not a
 		framework and is not directly
 		deployed via code.
-	</para>
-	<para>
+	
+	
 		Design Pattern have two main usages:
 		<itemizedlist>
 			<listitem>
-				<para>
+				
 					Common language for developers: They provide developers a
 					common
 					language for
@@ -21,52 +21,52 @@
 					, the another
 					developer
 					(should) know exactly what this means.
-				</para>
+				
 			</listitem>
 			<listitem>
-				<para>Capture good practices: Design patterns capture solutions
+				Capture good practices: Design patterns capture solutions
 					which have been successfully applied to problems. By learning these
 					patterns and the related problem, an unexperienced
 					developer
 					learns a
 					lot about software design.
-				</para>
+				
 			</listitem>
 		</itemizedlist>
 
 
-	</para>
-	<para>
+	
+	
 		Design pattern are based on the base principles of object
 		orientated
 		design.
 		<itemizedlist>
 			<listitem>
-				<para>Program to an interface not an implementation</para>
+				Program to an interface not an implementation
 			</listitem>
 			<listitem>
-				<para>Favor object composition over inheritance</para>
+				Favor object composition over inheritance
 			</listitem>
 		</itemizedlist>
-	</para>
+	
 
-	<para>
+	
 		Design Patterns can be divided into:
 		<itemizedlist>
 			<listitem>
-				<para>Creational Patterns</para>
+				Creational Patterns
 			</listitem>
 			<listitem>
-				<para>Structural Patterns</para>
+				Structural Patterns
 			</listitem>
 			<listitem>
-				<para>Behavioral Patterns</para>
+				Behavioral Patterns
 			</listitem>
 		</itemizedlist>
-	</para>
+	
 
 	<note>
-		<para>
+		
 			The terminology
 			<wordasword>Design Pattern</wordasword>
 			in software development is primary
@@ -80,6 +80,6 @@
 			Gamma,
 			Richard Helm,
 			Ralph Johnson und John Vlissides.
-		</para>
+		
 	</note>
 </section>

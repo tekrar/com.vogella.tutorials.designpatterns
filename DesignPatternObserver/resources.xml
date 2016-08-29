@@ -1,7 +1,7 @@
 <section id="resources">
-	<title>Links and Literature</title>
-	<para>
-		<ulink url="http://en.wikipedia.org/wiki/Design_Patterns">
+== Links and Literature
+	
+		http://en.wikipedia.org/wiki/Design_Patterns">
 			Wikipedia Entry about the GOF Design Pattern book.</ulink>
-	</para>
+	
 </section>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Design Patterns in Java - Singleton - Tutorial</title>
+=== Design Patterns in Java - Singleton - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,14 +12,14 @@
 		</copyright>
 		<pubdate>20.06.2016</pubdate>
 		<releaseinfo>
-			<para>Version 1.0 </para>
+			Version 1.0 
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Singletons</title>
-			<para> This article describes the Design Pattern "Singleton" and its
+	=== Singletons
+			 This article describes the Design Pattern "Singleton" and its
 				usage in the programming language Java.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

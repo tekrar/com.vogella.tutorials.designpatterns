@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Facade Design Pattern in Java - Tutorial</title>
+=== Facade Design Pattern in Java - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -12,14 +12,14 @@
 		</copyright>
 		<pubdate>01.07.2009</pubdate>
 		<releaseinfo>
-			<para>Version 0.1 </para>
+			Version 0.1 
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Facade</title>
-			<para> This article describes the Design Pattern "Facade" and its
+	=== Facade
+			 This article describes the Design Pattern "Facade" and its
 				usage in the programming language Java.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

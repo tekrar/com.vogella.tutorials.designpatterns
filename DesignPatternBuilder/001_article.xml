@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Implementing the builder pattern in Java 8 - Tutorial</title>
+=== Implementing the builder pattern in Java 8 - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -13,13 +13,13 @@
 		</copyright>
 		<pubdate>010.12.2014</pubdate>
 		<releaseinfo>
-			<para>Version 1.1 </para>
+			Version 1.1 
 		</releaseinfo>
 		<abstract id="abstract">
-			<title>Builder</title>
-			<para> This article describes the "Builder" design pattern and its
+	=== Builder
+			 This article describes the "Builder" design pattern and its
 				implementation in the programming language Java with Java 8.
-			</para>
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>

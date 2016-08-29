@@ -1,7 +1,7 @@
 <section id="resources">
-	<title>Links and Literature</title>
-	<para>
-		<ulink url="https://people.apache.org/~fhanik/kiss.html">
+== Links and Literature
+	
+		https://people.apache.org/~fhanik/kiss.html">
 			https://people.apache.org/~fhanik/kiss.html
 			about the KISS Design Principle.
 		</ulink>
@@ -11,5 +11,5 @@
 			Wikipedia Entry
 			about the SOLID Design Principle.
 		</ulink>
-	</para>
+	
 </section>

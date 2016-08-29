@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <article>
 	<articleinfo>
-		<title>Design Patterns in Java - Tutorial</title>
+=== Design Patterns in Java - Tutorial
 		<author>
 			<firstname>Lars</firstname>
 			<surname>Vogel</surname>
@@ -15,17 +15,17 @@
 		</copyright>
 		<pubdate>30.12.2010</pubdate>
 		<releaseinfo>
-			<para>Version 0.4</para>
+			Version 0.4
 		</releaseinfo>
 		
 		<abstract id="abstract">
-			<title>Design Pattern</title>
-			<para> Design Patterns are best practices how to solve common know
+	=== Design Pattern
+			 Design Patterns are best practices how to solve common know
 				problems. This article will give an overview of best practices in
 				object-orientated programming and has pointers to some
 				design-pattern tutorials.
-			</para>
-			<para></para>
+			
+			
 		</abstract>
 	</articleinfo>
 	<?dbhtml-include href="../../web/advertisement/afterTableOfContent"?>
