@@ -28,8 +28,8 @@ Version 0.3, 06.07.2016
 			 This article describes the Design Pattern "Singleton" and its
 				usage in the programming language Java.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::content/200_singleton.adoc[]
 

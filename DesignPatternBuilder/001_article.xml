@@ -1,6 +1,16 @@
-<?xml version="1.0"?>
-<article>
-	<articleinfo>
+=  - Tutorial
+:linkcss:
+:sectnums:                                                          
+:experimental:
+:icons:
+:imagesdir: ./img
+Lars Vogel, (c) 2009, 2016 vogella GmbH
+Version 0.3, 29.08.2016
+:docinfodir: ../
+:vgwort: XXX
+
+[abstract]
+
 === Implementing the builder pattern in Java 8 - Tutorial
 		<author>
 			<firstname>Lars</firstname>
@@ -20,8 +30,8 @@
 			 This article describes the "Builder" design pattern and its
 				implementation in the programming language Java with Java 8.
 			
-		</abstract>
-	</articleinfo>
+  
+  
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::100_builder.adoc[]
 include::../support.adoc[]
