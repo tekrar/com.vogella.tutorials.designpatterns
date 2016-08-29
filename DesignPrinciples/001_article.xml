@@ -29,7 +29,7 @@ include::010_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::content/020_KISS.adoc[]
 include::content/030_SOLID.adoc[]
-	<?dbhtml-include href="../../web/advertisement/afterSupport"?>
+
 
 
 
