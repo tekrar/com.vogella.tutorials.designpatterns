@@ -14,7 +14,7 @@
 			The Facade Pattern leaves the subsystem accessible to be
 			used directly.
 		
-	</section>
+
 
 	<section id="facade_s1s2b">
 === Example
@@ -26,7 +26,7 @@
 			easy to understand and maintainable interface, e.g., load()
 			and get().
 		
-	</section>
+
 
 	<section id="facade_s1s2c">
 === Evaluation
@@ -47,5 +47,5 @@
 			subsystem. So an implementation point of view both are
 			similar only distinguishable by their intent.
 		
-	</section>
-</section>
+
+

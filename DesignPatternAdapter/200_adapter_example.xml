@@ -18,30 +18,30 @@ image::adapter.jpg" scale="30" />
 				</textobject>
 			</mediaobject>
 		
-	</section>
+
 	<section>
 === The model for getting electricity
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/general/GermanElectricalSocket.java" />
-			</programlisting>
+					href="./examples/general/GermanElectricalSocket.java[]
+----
 		
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/general/GermanPlugConnector.java" />
-			</programlisting>
+					href="./examples/general/GermanPlugConnector.java[]
+----
 		
 		
 			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKElectricalSocket.java" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKElectricalSocket.java[]
+----
 		
 		
 			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKPlugConnector.java" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKPlugConnector.java[]
+----
 		
 		
 			These classes make clear that only
@@ -68,7 +68,7 @@ image::adapter.jpg" scale="30" />
 			`UKPlugConnector`
 			.
 		
-	</section>
+
 	<section>
 === Creating an adapter for plug connectors
 		
@@ -86,14 +86,14 @@ image::adapter.jpg" scale="30" />
 		
 		
 			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/GermanToUKAdapter.java" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/GermanToUKAdapter.java[]
+----
 		
 		The adapter can then be used like this:
 		
 			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/ExampleUsage.java" />
-			</programlisting>
+				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/ExampleUsage.java[]
+----
 		
 		
 			With this adapter in between the
@@ -102,5 +102,5 @@ image::adapter.jpg" scale="30" />
 			`UKElectricalSocket`
 			.
 		
-	</section>
-</section>
+
+

@@ -19,7 +19,7 @@
 			(garbage collection).
 		
 
-	</section>
+
 
 	<section id="chapter20s1as2b">
 === Abstraction
@@ -47,7 +47,7 @@
 			A object in an instance of this class and is the real object
 			which can be worked with.
 		
-	</section>
+
 
 	<section id="chapter20s1as2c">
 === Polymorphisms
@@ -71,7 +71,7 @@
 			which
 			implements this interface can be used as arguments.
 		
-	</section>
+
 
 	<section id="chapter20s1as2d">
 === Inheritance
@@ -91,7 +91,7 @@
 			functionality.
 		
 
-	</section>
+
 	<section id="120_ooprincipless1s2a">
 === Delegation
 
@@ -107,7 +107,7 @@
 			inheritance.
 		
 
-	</section>
+
 
 	<section id="120_ooprincipless1s2b">
 === Composition
@@ -130,7 +130,7 @@
 
 		
 
-	</section>
+
 
 	<section id="120_ooprincipless1s2c">
 === Aggregation
@@ -145,7 +145,7 @@
 			but still exists outside of that class.
 		
 
-	</section>
+
 
 
 	<section id="120_ooprincipless1s2d">
@@ -181,7 +181,7 @@
 			program because then it is hard to find the error.
 		
 
-	</section>
+
 
 	<section id="120_ooprincipless1s2e">
 === Cohesion
@@ -206,7 +206,7 @@
 			responsibilities, e.g. a Logger class should only be responsible for
 			logging.
 		
-	</section>
+
 
 	<section id="120_ooprincipless1s2f">
 === The Principle of Least Knowledge
@@ -214,7 +214,7 @@
 			<emphasis>Talk only to your immediate friends.</emphasis>
 		
 		Also known as Law of Demeter.
-	</section>
+
 
 	<section id="120_ooprincipless1s2g">
 === The Open Closed Principle
@@ -253,6 +253,6 @@
 			points where other plugs-ins can later add
 			functionality.
 		
-	</section>
 
-</section>
+
+

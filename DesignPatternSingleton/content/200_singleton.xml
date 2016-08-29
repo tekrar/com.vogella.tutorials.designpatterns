@@ -15,7 +15,7 @@
 			singleton to access your data model from within your application or
 			to define logger which the rest of the application can use. 
 		
-	</section>
+
 	<section id="singleton_code">
 === Code Example
 		The possible implementation of Java depends on the version of
@@ -29,21 +29,21 @@
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/singleton/MyEnumSingleton.java" />
-			</programlisting>
+					parse="text" href="../examples/singleton/MyEnumSingleton.java[]
+----
 		
 		 Before Java 1.6 a class which should be a singleton can be
 			defined like the following.
 		
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/singleton/Singleton.java" />
-			</programlisting>
+					parse="text" href="../examples/singleton/Singleton.java[]
+----
 		
 		
 
 		
-	</section>
+
 	<section id="singleton_evalutation">
 === Evaluation
 		 A static class with static method would result in the same
@@ -57,5 +57,4 @@
 			private.
 		 If you are using multiple classloaders then several instances
 			of the singleton can get created.
-	</section>
-</section>
+

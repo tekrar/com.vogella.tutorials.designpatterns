@@ -24,7 +24,7 @@
 			or
 			<wordasword>listeners</wordasword>.
 		
-	</section>
+
 
 	<section id="observer_example">
 === Example
@@ -70,10 +70,10 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/Button.java" />
-			</programlisting>
+					parse="text" href="../examples/observer/Button.java[]
+----
 		
-	</section>
+
 
 	<section id="observer_code">
 === Code example
@@ -91,24 +91,24 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/MyModel.java" />
-			</programlisting>
+					parse="text" href="../examples/observer/MyModel.java[]
+----
 		
 
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/MyObserver.java" />
-			</programlisting>
+					parse="text" href="../examples/observer/MyObserver.java[]
+----
 		
 
 		<para language="java">
 			<programlisting>
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/Main.java" />
-			</programlisting>
+					parse="text" href="../examples/observer/Main.java[]
+----
 		
-	</section>
+
 
 	<section id="observer_s1s2d">
 === Evaluation
@@ -135,5 +135,5 @@
 			observers. Only the observers have direct knowledge about the
 			subject.
 		
-	</section>
-</section>
+
+

@@ -9,7 +9,7 @@
 				the logic of constructing the different pieces of the product.
 			</emphasis>
 		
-	</section>
+
 
 	<section id="builder_example">
 === Example
@@ -28,26 +28,26 @@
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/Task.java" />
-			</programlisting>
+					parse="text" href="./examples/Task.java[]
+----
 		
 		Before Java 8 your builder would looks like the following.
 		
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/TaskBuilder.java" />
-			</programlisting>
+					parse="text" href="./examples/TaskBuilder.java[]
+----
 		
 		And here is how you can use it.
 		
 			<programlisting language="java">
 				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/MainTest.java" />
-			</programlisting>
+					parse="text" href="./examples/MainTest.java[]
+----
 		
 
-	</section>
+
 
 	<section id="builder_evaluation">
 === Evaluation
@@ -58,5 +58,5 @@
 		
 		The builder pattern can be used to create an immutable class.
 		
-	</section>
-</section>
+
+

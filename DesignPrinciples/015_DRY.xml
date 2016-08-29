@@ -14,4 +14,3 @@
 	An example could be the creator of a file dialog, which might
 		just wanted to open particular files, but implemented it in a way so
 		that it is able to handle any file.
-</section>
