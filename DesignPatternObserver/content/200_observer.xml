@@ -8,7 +8,7 @@
 		</indexterm>
 		
 			The
-			<wordasword>observer</wordasword>
+			_observer_
 			pattern defines a one-to-many dependency
 			between objects so that when
 			one object changes state,
@@ -18,11 +18,11 @@
 		
 		
 			The object which is being watched is called the
-			<wordasword>subject</wordasword>.
+			_subject_.
 			The objects which are watching the state changes are called
-			<wordasword>observers</wordasword>
+			_observers_
 			or
-			<wordasword>listeners</wordasword>.
+			_listeners_.
 		
 
 
@@ -84,7 +84,7 @@
 			of
 			`People`
 			objects. For this example create a new Java project called
-			<wordasword>com.vogella.java.designpattern.observer</wordasword>
+			_com.vogella.java.designpattern.observer_
 			and the following classes.
 		
 
@@ -114,13 +114,13 @@
 === Evaluation
 		
 			The observer pattern allows for the
-			<wordasword>Open Closed</wordasword>
+			_Open Closed_
 			principle. This principle states that a class should be open for
 			extensions without the need to change the class.
 		
 		
 			Using the observer pattern a
-			<wordasword>subject</wordasword>
+			_subject_
 			can register an unlimited number of observers. If
 			a new
 			listener wants

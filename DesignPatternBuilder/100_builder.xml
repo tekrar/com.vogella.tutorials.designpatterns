@@ -26,24 +26,24 @@
 		
 		Assume you have a data model like the following.
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/Task.java[]
+[source,java]
+----
+include::res/Task.java[]
 ----
 		
 		Before Java 8 your builder would looks like the following.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/TaskBuilder.java[]
+[source,java]
+----
+include::res/TaskBuilder.java[]
 ----
 		
 		And here is how you can use it.
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="./examples/MainTest.java[]
+[source,java]
+----
+include::res/MainTest.java[]
 ----
 		
 

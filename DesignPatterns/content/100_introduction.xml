@@ -17,7 +17,7 @@
 					tells
 					another
 					developer that he is using a
-					<wordasword>Singleton</wordasword>
+					_Singleton_
 					, the another
 					developer
 					(should) know exactly what this means.
@@ -68,14 +68,14 @@
 	<note>
 		
 			The terminology
-			<wordasword>Design Pattern</wordasword>
+			_Design Pattern_
 			in software development is primary
 			based on the book
-			<wordasword>Design
+			_Design
 				Patterns -
 				Elements of
 				Reusable Object-Oriented Software
-			</wordasword>
+			_
 			from Erich
 			Gamma,
 			Richard Helm,
