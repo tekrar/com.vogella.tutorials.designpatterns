@@ -1,4 +1,4 @@
-<section id="java_DRY">
+[[java_DRY">
 == DRY Principle
 	Dry is a shortcut for "Don't repeat yourself". For software it
 		means that it is good to rely on good libraries to achieve a certain

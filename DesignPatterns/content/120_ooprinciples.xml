@@ -1,11 +1,11 @@
-<section id="120_ooprincipless1a">
+[[120_ooprincipless1a">
 == Object Orientated Programming
 	
 		OO programming suggests that you use the following principles
 		during the design of a software. The following are not "Design
 		Principles" but a repetition of a good OO design.
 	
-	<section id="chapter20s1s2a">
+[[chapter20s1s2a">
 === Encapsulation
 		
 			In general a general manipulation of an object's variables
@@ -21,7 +21,7 @@
 
 
 
-	<section id="chapter20s1as2b">
+[[chapter20s1as2b">
 === Abstraction
 		
 			Java support the abstraction of data definition and concrete
@@ -49,7 +49,7 @@
 		
 
 
-	<section id="chapter20s1as2c">
+[[chapter20s1as2c">
 === Polymorphisms
 		
 			The ability of object variables to contain objects of
@@ -73,7 +73,7 @@
 		
 
 
-	<section id="chapter20s1as2d">
+[[chapter20s1as2d">
 === Inheritance
 		
 			Inheritance allows that classes can be based on each other.
@@ -92,7 +92,7 @@
 		
 
 
-	<section id="120_ooprincipless1s2a">
+[[120_ooprincipless1s2a">
 === Delegation
 
 		
@@ -109,7 +109,7 @@
 
 
 
-	<section id="120_ooprincipless1s2b">
+[[120_ooprincipless1s2b">
 === Composition
 
 		
@@ -132,7 +132,7 @@
 
 
 
-	<section id="120_ooprincipless1s2c">
+[[120_ooprincipless1s2c">
 === Aggregation
 
 		
@@ -148,7 +148,7 @@
 
 
 
-	<section id="120_ooprincipless1s2d">
+[[120_ooprincipless1s2d">
 === Design by contract
 
 		
@@ -183,7 +183,7 @@
 
 
 
-	<section id="120_ooprincipless1s2e">
+[[120_ooprincipless1s2e">
 === Cohesion
 		A system should have a high cohesion.
 		
@@ -208,7 +208,7 @@
 		
 
 
-	<section id="120_ooprincipless1s2f">
+[[120_ooprincipless1s2f">
 === The Principle of Least Knowledge
 		
 			<emphasis>Talk only to your immediate friends.</emphasis>
@@ -216,7 +216,7 @@
 		Also known as Law of Demeter.
 
 
-	<section id="120_ooprincipless1s2g">
+[[120_ooprincipless1s2g">
 === The Open Closed Principle
 		
 			<emphasis>

@@ -1,7 +1,7 @@
-<section id="observer" role="wrapper">
+[[observer" role="wrapper">
 == Observer Pattern
 
-	<section id="observer_definition">
+[[observer_definition">
 === Definition
 		<indexterm>
 			<primary>Observer Pattern</primary>
@@ -26,7 +26,7 @@
 		
 
 
-	<section id="observer_example">
+[[observer_example">
 === Example
 		
 			The
@@ -75,7 +75,7 @@
 		
 
 
-	<section id="observer_code">
+[[observer_code">
 === Code example
 		
 			In the following example the observer is watching changes in
@@ -110,7 +110,7 @@
 		
 
 
-	<section id="observer_s1s2d">
+[[observer_s1s2d">
 === Evaluation
 		
 			The observer pattern allows for the

@@ -1,6 +1,6 @@
-<section id="facade">
+[[facade">
 == Facade
-	<section id="facade_s1s2a">
+[[facade_s1s2a">
 === Definition
 		
 			<emphasis>
@@ -16,7 +16,7 @@
 		
 
 
-	<section id="facade_s1s2b">
+[[facade_s1s2b">
 === Example
 		
 			Assume you have a database access class with different
@@ -28,7 +28,7 @@
 		
 
 
-	<section id="facade_s1s2c">
+[[facade_s1s2c">
 === Evaluation
 		
 			The Facade pattern simplifies the access to an complex
