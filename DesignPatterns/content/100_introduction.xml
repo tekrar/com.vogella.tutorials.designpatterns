@@ -8,9 +8,7 @@
 	
 		Design Pattern have two main usages:
 		<itemizedlist>
-			<listitem>
-				
-					Common language for developers: They provide developers a
+			* Common language for developers: They provide developers a
 					common
 					language for
 					certain problems. For example if a developer
@@ -22,16 +20,15 @@
 					developer
 					(should) know exactly what this means.
 				
-			</listitem>
-			<listitem>
-				Capture good practices: Design patterns capture solutions
+
+			* Capture good practices: Design patterns capture solutions
 					which have been successfully applied to problems. By learning these
 					patterns and the related problem, an unexperienced
 					developer
 					learns a
 					lot about software design.
 				
-			</listitem>
+
 		</itemizedlist>
 
 
@@ -41,31 +38,26 @@
 		orientated
 		design.
 		<itemizedlist>
-			<listitem>
-				Program to an interface not an implementation
-			</listitem>
-			<listitem>
-				Favor object composition over inheritance
-			</listitem>
+			* Program to an interface not an implementation
+
+			* Favor object composition over inheritance
+
 		</itemizedlist>
 	
 
 	
 		Design Patterns can be divided into:
 		<itemizedlist>
-			<listitem>
-				Creational Patterns
-			</listitem>
-			<listitem>
-				Structural Patterns
-			</listitem>
-			<listitem>
-				Behavioral Patterns
-			</listitem>
+			* Creational Patterns
+
+			* Structural Patterns
+
+			* Behavioral Patterns
+
 		</itemizedlist>
 	
 
-	<note>
+NOTE:
 		
 			The terminology
 			_Design Pattern_
