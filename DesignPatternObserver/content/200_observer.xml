@@ -3,9 +3,8 @@
 
 [[observer_definition">
 === Definition
-		<indexterm>
-			<primary>Observer Pattern</primary>
-		</indexterm>
+(((Observer Pattern)))
+		
 		
 			The
 			_observer_
