@@ -102,9 +102,9 @@
 		
 
 		<para language="java">
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/Main.java[]
+[source,text]
+----
+include::res/observer/Main.java[]
 ----
 		
 

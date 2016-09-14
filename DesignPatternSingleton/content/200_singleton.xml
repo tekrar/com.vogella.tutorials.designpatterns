@@ -27,17 +27,17 @@
 			Joshua
 			Bloch.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/singleton/MyEnumSingleton.java[]
+[source,text]
+----
+include::res/singleton/MyEnumSingleton.java[]
 ----
 		
 		 Before Java 1.6 a class which should be a singleton can be
 			defined like the following.
 		
-			<programlisting>
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/singleton/Singleton.java[]
+[source,text]
+----
+include::res/singleton/Singleton.java[]
 ----
 		
 		
