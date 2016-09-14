@@ -7,7 +7,7 @@
 	
 	
 		Design Pattern have two main usages:
-		<itemizedlist>
+		
 			* Common language for developers: They provide developers a
 					common
 					language for
@@ -37,7 +37,7 @@
 		Design pattern are based on the base principles of object
 		orientated
 		design.
-		<itemizedlist>
+		
 			* Program to an interface not an implementation
 
 			* Favor object composition over inheritance
@@ -47,7 +47,7 @@
 
 	
 		Design Patterns can be divided into:
-		<itemizedlist>
+		
 			* Creational Patterns
 
 			* Structural Patterns
