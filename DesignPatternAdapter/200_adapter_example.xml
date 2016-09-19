@@ -1,6 +1,6 @@
 [[adapter_example">
 == Example for an adapter
-	<section>
+	
 === Target
 		Let's try to implement a real world adapter like a power
 			adapter.
@@ -19,7 +19,7 @@ image::adapter.jpg" scale="30" />
 			</mediaobject>
 		
 
-	<section>
+	
 === The model for getting electricity
 		
 			<programlisting language="java">
@@ -69,7 +69,7 @@ image::adapter.jpg" scale="30" />
 			.
 		
 
-	<section>
+	
 === Creating an adapter for plug connectors
 		
 			To use the
