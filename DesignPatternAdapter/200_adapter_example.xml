@@ -11,36 +11,33 @@
 			use of adapters is necessary.
 		
 		
-image::adapter.jpg" scale="30" />
-				</imageobject>
-				<textobject>
-					<phrase>Adapter in real life</phrase>
-				</textobject>
-			</mediaobject>
+image::adapter.jpg" scale="30[Adapter in real life]
 		
 
 	
 === The model for getting electricity
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/general/GermanElectricalSocket.java[]
+[source,java]
+----
+include::res/general/GermanElectricalSocket.java[]
 ----
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text"
-					href="./examples/general/GermanPlugConnector.java[]
+[source,java]
+----
+include::res/general/GermanPlugConnector.java[]
 ----
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKElectricalSocket.java[]
+[source,java]
+----
+include::res/general/UKElectricalSocket.java[]
 ----
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/UKPlugConnector.java[]
+[source,java]
+----
+include::res/general/UKPlugConnector.java[]
 ----
 		
 		
@@ -85,14 +82,16 @@ image::adapter.jpg" scale="30" />
 			interface.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/GermanToUKAdapter.java[]
+[source,java]
+----
+include::res/general/GermanToUKAdapter.java[]
 ----
 		
 		The adapter can then be used like this:
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" parse="text" href="./examples/general/ExampleUsage.java[]
+[source,java]
+----
+include::res/general/ExampleUsage.java[]
 ----
 		
 		

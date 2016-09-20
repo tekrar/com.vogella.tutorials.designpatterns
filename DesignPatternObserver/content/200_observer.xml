@@ -1,4 +1,4 @@
-[[observer" role="wrapper">
+[[observer]]
 == Observer Pattern
 
 [[observer_definition">
@@ -67,9 +67,9 @@
 			for a button.
 		
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/Button.java[]
+[source,java]
+----
+include::res/observer/Button.java[]
 ----
 		
 
@@ -88,16 +88,16 @@
 		
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/MyModel.java[]
+[source,java]
+----
+include::res/observer/MyModel.java[]
 ----
 		
 
 		
-			<programlisting language="java">
-				<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-					parse="text" href="../examples/observer/MyObserver.java[]
+[source,java]
+----
+include::res/observer/MyObserver.java[]
 ----
 		
 
