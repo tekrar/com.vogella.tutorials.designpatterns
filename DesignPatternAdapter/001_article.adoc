@@ -1,49 +1,22 @@
-=  - Tutorial
+= Adapter Design Pattern in Java - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
-Version 0.3, 29.08.2016
+Lars Vogel, Simon Scholz (c) 2007, 2016 vogella GmbH
+Version 1.2, 29.08.2016
 :docinfodir: ../
-:vgwort: XXX
+:vgwort: DesignPatternAdapter
 
 [abstract]
-
-=== Adapter Design Pattern in Java - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<author>
-			<firstname>Simon</firstname>
-			<surname>Scholz</surname>
-		</author>
-		<copyright>
-			<year>2007 - 2015</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-		<pubdate>26.10.2015</pubdate>
-		<releaseinfo>
-			Version 1.1
-		</releaseinfo>
-
-		<abstract id="abstract">
-	=== Adapter
-			 This article describes the Design Pattern "Adapter" and its
-				usage in the programming language Java.
-			
-  
+Adapter.
+This article describes the Design Pattern "Adapter" and its usage in the programming language Java.
   
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::200_adapter_example.adoc[]
-
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
-
-
-
 

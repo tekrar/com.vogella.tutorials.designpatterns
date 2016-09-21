@@ -1,105 +1,89 @@
-[[adapter_example">
+[[adapter_example]]
 == Example for an adapter
-	
-=== Target
-		Let's try to implement a real world adapter like a power
-			adapter.
-			Basically different countries sometimes have
-			different electrical
-			sockets and in order to make different electrical sockets work
-			together with a different plugs the
-			use of adapters is necessary.
-		
-		
-image::adapter.jpg" scale="30[Adapter in real life]
-		
 
-	
+=== Target
+
+Let's try to implement a real world adapter like a power
+adapter.
+Basically different countries sometimes have
+different electrical
+sockets and in order to make different electrical sockets work
+together with a different plugs the
+use of adapters is necessary.
+
+image::adapter.jpg[Adapter in real life]
+
 === The model for getting electricity
-		
+
 [source,java]
 ----
 include::res/general/GermanElectricalSocket.java[]
 ----
-		
-		
+
 [source,java]
 ----
 include::res/general/GermanPlugConnector.java[]
 ----
-		
-		
+
 [source,java]
 ----
 include::res/general/UKElectricalSocket.java[]
 ----
-		
-		
+
 [source,java]
 ----
 include::res/general/UKPlugConnector.java[]
 ----
-		
-		
-			These classes make clear that only
-			`UKPlugConnectors`
-			can be
-			plugged into a
-			`UKElectricalSocket`
-			and only
-			`GermanPlugConnectors`
-			can be
-			plugged into
-			a
-			`GermanElectricalSocket`
-			.
-		
-		
-			Fortunately an
-			`UKElectricalSocket`
-			can also be used with a
-			`GermanPlugConnector`
-			by using an adapter. This can be archived by wrapping a
-			`GermanPlugConnector`
-			in a
-			`UKPlugConnector`
-			.
-		
 
-	
+These classes make clear that only
+`UKPlugConnectors`
+can be
+plugged into a
+`UKElectricalSocket`
+and only
+`GermanPlugConnectors`
+can be
+plugged into
+a
+`GermanElectricalSocket`.
+
+Fortunately an
+`UKElectricalSocket`
+can also be used with a
+`GermanPlugConnector`
+by using an adapter. This can be archived by wrapping a
+`GermanPlugConnector`
+in a
+`UKPlugConnector`.
+
 === Creating an adapter for plug connectors
-		
-			To use the
-			`UKElectricalSocket`
-			's
-			`plugIn`
-			method an
-			`UKPlugConnector`
-			has to be used. Therefore the
-			`GermanPlugConnector`
-			is wrapped in a new class, which implements the
-			`UKPlugConnector`
-			interface.
-		
-		
+
+To use the
+`UKElectricalSocket`
+'s
+`plugIn`
+method an
+`UKPlugConnector`
+has to be used. Therefore the
+`GermanPlugConnector`
+is wrapped in a new class, which implements the
+`UKPlugConnector`
+interface.
+
 [source,java]
 ----
 include::res/general/GermanToUKAdapter.java[]
 ----
-		
-		The adapter can then be used like this:
-		
+
+The adapter can then be used like this:
+
 [source,java]
 ----
 include::res/general/ExampleUsage.java[]
 ----
-		
-		
-			With this adapter in between the
-			`GermanPlugConnector`
-			can now also make use of the
-			`UKElectricalSocket`
-			.
-		
 
+With this adapter in between the
+`GermanPlugConnector`
+can now also make use of the
+`UKElectricalSocket`.
 
