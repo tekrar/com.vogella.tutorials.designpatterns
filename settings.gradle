@@ -1,0 +1,10 @@
+rootProject.name = 'com.vogella.tutorials.designpatterns'
+
+include 'DesignPatternAdapter'
+include 'DesignPatternBuilder'
+include 'DesignPatternFacade'
+include 'DesignPatternObserver'
+include 'DesignPatterns'
+include 'DesignPatternSingleton'
+include 'DesignPrinciples'
+
