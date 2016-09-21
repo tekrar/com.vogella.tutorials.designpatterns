@@ -1,4 +1,4 @@
-= Design pattern tutorials from http:://www.vogella.com[vogella.com]
+= Design pattern tutorials from http://www.vogella.com[vogella.com]
 
 == Content
 
