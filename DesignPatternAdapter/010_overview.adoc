@@ -1,32 +1,14 @@
 [[adapter_overview]]
 == The adapter pattern
+
+The _adapter pattern_ converts the interface of a class into another interface the clients expects. 
+This pattern mainly adapts one object to another one.
+Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 	
-The adapter pattern converts the interface of a class
-into
-another interface the clients expects. Adapter lets
-classes work
-together that couldn't otherwise because of
-incompatible interfaces.
+The adapter pattern is widely known in software development and used in many programming languages, e.g., Java.
+
+Adapter allows to reuse existing coding without changing it, as the adapter ensures the conversion between the different interfaces.
 	
-The adapter pattern is widely known in software development and
-used in many programming languages, e.g., Java.
-This pattern mainly adapts one object to another one, which
-usually means that the actual object is wrapped by
-another
-object, so
-that it fits to another desired interface.
-	
-Adapter allows to reuse existing coding without changing
-it. The
-adapter makes the conversion between the different
-interfaces.
-	
-In comparison to a decorator pattern, the adapter pattern only
-converts
-interfaces, while the decorator pattern
-adds new
-functionality to an
-existing interface. Therefore the
-decorator does not change the
-existing interface.
+In comparison to a _decorator pattern_, the adapter pattern only converts interfaces, while the decorator pattern adds new functionality to an existing interface. 
+Therefore, the decorator does not change the existing interface.
 
