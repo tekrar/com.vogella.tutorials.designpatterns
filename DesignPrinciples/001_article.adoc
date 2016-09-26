@@ -37,8 +37,8 @@ Version 0.3, 29.08.2016
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::010_overview.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
-include::content/020_KISS.adoc[]
-include::content/030_SOLID.adoc[]
+include::020_KISS.adoc[]
+include::030_SOLID.adoc[]
 
 
 

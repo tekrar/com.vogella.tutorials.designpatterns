@@ -39,7 +39,7 @@ Version 0.3, 29.08.2016
   
   
 include::../web/advertisement/afterTableOfContent.adoc[]
-include::content/200_observer.adoc[]
+include::200_observer.adoc[]
 
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
