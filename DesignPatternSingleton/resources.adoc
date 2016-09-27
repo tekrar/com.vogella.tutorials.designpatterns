@@ -1,4 +1,4 @@
-[[resources">
+[[resources]]
 == Links and Literature
 	
 		http://en.wikipedia.org/wiki/Design_Patterns">

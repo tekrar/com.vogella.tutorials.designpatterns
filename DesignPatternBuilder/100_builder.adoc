@@ -1,6 +1,6 @@
-[[builderpattern">
+[[builderpattern]]
 == Builder
-[[builder_definition">
+[[builder_definition]]
 === Definition
 		
 			<emphasis>
@@ -11,7 +11,7 @@
 		
 
 
-[[builder_example">
+[[builder_example]]
 === Example
 		
 			Typically the builder pattern is implemented by an class which
@@ -49,7 +49,7 @@ include::res/MainTest.java[]
 
 
 
-[[builder_evaluation">
+[[builder_evaluation]]
 === Evaluation
 		
 			The builder pattern simplifies the creation of objects. It also

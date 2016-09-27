@@ -1,6 +1,6 @@
-[[singleton">
+[[singleton]]
 == Singletons in Java
-[[singleton_overview">
+[[singleton_overview]]
 === Overview
 		
 			A singleton in Java is a class for which only one instance can
@@ -16,7 +16,7 @@
 			to define logger which the rest of the application can use. 
 		
 
-[[singleton_code">
+[[singleton_code]]
 === Code Example
 		The possible implementation of Java depends on the version of
 			Java you are using.
@@ -44,7 +44,7 @@ include::res/singleton/Singleton.java[]
 
 		
 
-[[singleton_evalutation">
+[[singleton_evalutation]]
 === Evaluation
 		 A static class with static method would result in the same
 			functionality as a singleton. As singletons are define using an

@@ -1,2 +1,2 @@
-[[java_SOLID">
+[[java_SOLID]]
 == SOLID Principle

@@ -1,4 +1,4 @@
-[[pattern">
+[[pattern]]
 == Pattern
 	 Please see the following description for details on the design
 		pattern.

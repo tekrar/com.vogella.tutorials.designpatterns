@@ -1,4 +1,4 @@
-[[resources">
+[[resources]]
 == Links and Literature
 	
 		https://people.apache.org/~fhanik/kiss.html[
