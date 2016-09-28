@@ -31,7 +31,7 @@ Version 0.3, 29.08.2016
 			Version 1.5 
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Observer
 			 This article describes the Observer design pattern and its
 				usage in the programming language Java.

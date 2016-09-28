@@ -28,7 +28,7 @@ Version 0.3, 29.08.2016
 			Version 0.4
 		</releaseinfo>
 		
-		<abstract id="abstract">
+[abstract]
 	=== Design Pattern
 			 Design Patterns are best practices how to solve common know
 				problems. This article will give an overview of best practices in

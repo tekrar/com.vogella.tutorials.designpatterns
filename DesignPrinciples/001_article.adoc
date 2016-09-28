@@ -25,7 +25,7 @@ Version 0.3, 29.08.2016
 			Version 0.1
 		</releaseinfo>
 
-		<abstract id="abstract">
+[abstract]
 	=== Design Principles
 			
 				Obeying good design principles in Java is essential to create

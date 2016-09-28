@@ -29,7 +29,7 @@
 					lot about software design.
 				
 
-		</itemizedlist>
+		
 
 
 	
@@ -42,7 +42,7 @@
 
 			* Favor object composition over inheritance
 
-		</itemizedlist>
+		
 	
 
 	
@@ -54,7 +54,7 @@
 
 			* Behavioral Patterns
 
-		</itemizedlist>
+		
 	
 
 NOTE:

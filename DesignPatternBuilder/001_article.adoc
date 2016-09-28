@@ -25,7 +25,7 @@ Version 0.3, 29.08.2016
 		<releaseinfo>
 			Version 1.1 
 		</releaseinfo>
-		<abstract id="abstract">
+[abstract]
 	=== Builder
 			 This article describes the "Builder" design pattern and its
 				implementation in the programming language Java with Java 8.
