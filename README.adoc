@@ -1,20 +1,6 @@
-= Design pattern tutorials from http://www.vogella.com[vogella.com]
+= Design pattern tutorials from vogella.com
 
-== Content
-
-This repository contains the Design pattern tutorials hosted on the http://www.vogella.com website.
-See http://www.vogella.com/tutorials/designpattern.html to get an overview.
-
-The content of the repository is licensed under the http://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.en[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany].
-The source code is licensed under the https://www.eclipse.org/legal/epl-v10.html[Eclipse Public License 1.0]. 
-
-== Contributions
-
-We gladly and thankfully accept pull requests to improve the content of our tutorials. 
-See https://github.com/vogellacompany/com.vogella.tutorials.designpatterns/blob/master/CONTRIBUTING.adoc[Contributing to this repo] for the legal details.
-
-
-== How to build the tutorials
+== How to build
 
 In the root directory the following commands can be used to build different outputs.
 
@@ -38,11 +24,9 @@ If these commands are run in the root directory all subprojects will be build.
 
 TIP: Single subprojects can be build when navigating into a subproject and for example run `../gradlew cH`
 
-[NOTE]
-====
-On Windows OS  you can use `./gradlew.bat`
-See http://www.vogella.com/tutorials/Gradle/article.html[Gradle tutorial]
-====
+
+NOTE: On Windows OS `./gradlew.bat` must be used +
+See http://www.vogella.com/tutorials/CSS/article.html[CSS tutorial]
 
 == Create a new tutorial
 
@@ -52,5 +36,5 @@ See http://www.vogella.com/tutorials/Gradle/article.html[Gradle tutorial]
 
 == Publish HTML task for Jenkins
 
-Currently the Jenkins build server is used to copy the HTML tutorials from an '/output' folder to the actual webserver,
+Currently the jenkins build server is used to copy the HTML tutorials from an '/output' folder to the actual webserver,
 therefore the _publishHtml_ task can be used to create the HTML Tutorials and copy the HTML tutorials to a '/asciidocOutput' folder.
