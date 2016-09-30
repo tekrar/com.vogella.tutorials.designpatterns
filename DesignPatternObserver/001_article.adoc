@@ -1,50 +1,21 @@
-=  - Tutorial
+= Observer Design Pattern in Java - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
-Version 0.3, 29.08.2016
+Lars Vogel (c) 2007, 2016 vogella GmbH
+Version 1.6, 29.09.2016
 :docinfodir: ../
-:vgwort: XXX
+:vgwort: DesignPatternObserver
 
 [abstract]
-
-=== Observer Design Pattern in Java - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<copyright>
-			<year>2007</year>
-			<year>2008</year>
-			<year>2009</year>
-			<year>2010</year>
-			<year>2011</year>
-			<year>2012</year>
-			<year>2013</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-		<pubdate>22.05.2013</pubdate>
-		<releaseinfo>
-			Version 1.5 
-		</releaseinfo>
-		
-[abstract]
-	=== Observer
-			 This article describes the Observer design pattern and its
-				usage in the programming language Java.
-			
-  
+Observer.
+This article describes the Observer design pattern and its usage in the programming language Java.
   
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::200_observer.adoc[]
-
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
-
-
-
 

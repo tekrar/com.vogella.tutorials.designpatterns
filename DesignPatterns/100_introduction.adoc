@@ -1,76 +1,42 @@
 [[designpattern_overview]]
 == Design pattern in software development
-	Design patterns are proven solutions approaches to specific
-		problems. A design pattern is not a
-		framework and is not directly
-		deployed via code.
-	
-	
-		Design Pattern have two main usages:
-		
-			* Common language for developers: They provide developers a
-					common
-					language for
-					certain problems. For example if a developer
-					tells
-					another
-					developer that he is using a
-					_Singleton_
-					, the another
-					developer
-					(should) know exactly what this means.
-				
 
-			* Capture good practices: Design patterns capture solutions
-					which have been successfully applied to problems. By learning these
-					patterns and the related problem, an unexperienced
-					developer
-					learns a
-					lot about software design.
-				
+Design patterns are proven solutions approaches to specific
+problems. A design pattern is not a
+framework and is not directly
+deployed via code.
 
-		
+Design Pattern have two main usages:
 
+* Common language for developers: They provide developers a common language for certain problems. 
+For example if a developer tells another developer that he is using a _Singleton_, the another developer (should) know exactly what this means.
 
-	
-	
-		Design pattern are based on the base principles of object
-		orientated
-		design.
-		
-			* Program to an interface not an implementation
+* Capture good practices: Design patterns capture solutions which have been successfully applied to problems. 
+By learning these patterns and the related problem, an unexperienced developer learns a lot about software design.
 
-			* Favor object composition over inheritance
+Design pattern are based on the base principles of object
+orientated
+design.
 
-		
-	
+* Program to an interface not an implementation
+* Favor object composition over inheritance
 
-	
-		Design Patterns can be divided into:
-		
-			* Creational Patterns
+Design Patterns can be divided into:
 
-			* Structural Patterns
+* Creational Patterns
+* Structural Patterns
+* Behavioral Patterns
 
-			* Behavioral Patterns
+NOTE: The terminology
+_Design Pattern_
+in software development is primary
+based on the book
+_Design
+Patterns -
+Elements of
+Reusable Object-Oriented Software_
+from Erich
+Gamma,
+Richard Helm,
+Ralph Johnson und John Vlissides.
 
-		
-	
-
-NOTE:
-		
-			The terminology
-			_Design Pattern_
-			in software development is primary
-			based on the book
-			_Design
-				Patterns -
-				Elements of
-				Reusable Object-Oriented Software
-			_
-			from Erich
-			Gamma,
-			Richard Helm,
-			Ralph Johnson und John Vlissides.
-		
-	</note>

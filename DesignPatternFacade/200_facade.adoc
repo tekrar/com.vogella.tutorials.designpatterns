@@ -1,0 +1,41 @@
+[[facade]]
+== Facade
+
+[[facade_s1s2a]]
+=== Definition
+
+The Facade Pattern provides a unified interface to a set
+of interfaces in as subsystem. Facade defines a
+higher-level interface that makes the subsystem easier
+to use.
+		
+The Facade Pattern leaves the subsystem accessible to be
+used directly.
+
+[[facade_s1s2b]]
+=== Example
+		
+Assume you have a database access class with different
+methods to read the different tables. The client requires
+the complete result. You could use a facade pattern which
+hides the complex database access interface behind a few
+easy to understand and maintainable interface, e.g., load()
+and get().
+
+[[facade_s1s2c]]
+=== Evaluation
+		
+The Facade pattern simplifies the access to an complex
+interface but allows still the complete access to the
+underlying subsystem.
+		
+The Facade Pattern allows to decouple your client
+implementation from the subsystem.
+		
+The difference between the Adapter Pattern and the Facade
+Pattern is their intent. The Adapter Pattern converts one or
+more interfaces to an expected subsystem interface The
+Facade Pattern simplifies one or more interfaces to a
+subsystem. So an implementation point of view both are
+similar only distinguishable by their intent.
+

@@ -4,135 +4,111 @@
 [[observer_definition]]
 === Definition
 (((Observer Pattern)))
+The
+_observer_
+pattern defines a one-to-many dependency
+between objects so that when
+one object changes state,
+all of its dependents are notified and
+updated
+automatically.
 		
-		
-			The
-			_observer_
-			pattern defines a one-to-many dependency
-			between objects so that when
-			one object changes state,
-			all of its dependents are notified and
-			updated
-			automatically.
-		
-		
-			The object which is being watched is called the
-			_subject_.
-			The objects which are watching the state changes are called
-			_observers_
-			or
-			_listeners_.
-		
-
+The object which is being watched is called the
+_subject_.
+The objects which are watching the state changes are called
+_observers_
+or
+_listeners_.
 
 [[observer_example]]
 === Example
 		
-			The
-			observer
-			pattern is very common in Java. For example, you can
-			define a
-			listener
-			for a button in a user interface. If the button is
-			selected,
-			the
-			listener is
-			notified and performs a certain action.
+The
+observer
+pattern is very common in Java. For example, you can
+define a
+listener
+for a button in a user interface. If the button is
+selected,
+the
+listener is
+notified and performs a certain action.
 		
+But the observer pattern is not limited to single user interface
+components. For example, you could have a part A in your application
+which displays the current
+temperature.
 		
-			But the observer pattern is not limited to single user interface
-			components. For example, you could have a part A in your application
-			which displays the current
-			temperature.
+Another part B displays a green light if the temperature is
+above 20
+degree
+celsius. To react to changes in the temperature, part B
+registers itself as a
+listener to
+Part A.
 		
+If the temperature in part A is changed, an event is
+triggered.
+This event is sent to all
+registered listeners, as, for example, part B.
+Part B receives the changed data and
+can adjust its display.
 		
-			Another part B displays a green light if the temperature is
-			above 20
-			degree
-			celsius. To react to changes in the temperature, part B
-			registers itself as a
-			listener to
-			Part A.
-		
-		
-			If the temperature in part A is changed, an event is
-			triggered.
-			This event is sent to all
-			registered listeners, as, for example, part B.
-			Part B receives the changed data and
-			can adjust its display.
-		
-		
-			The following example code shows such a listener implementation
-			for a button.
-		
+The following example code shows such a listener implementation
+for a button.
 		
 [source,java]
 ----
 include::res/observer/Button.java[]
 ----
-		
-
 
 [[observer_code]]
 === Code example
 		
-			In the following example the observer is watching changes in
-			a
-			`List`
-			of
-			`People`
-			objects. For this example create a new Java project called
-			_com.vogella.java.designpattern.observer_
-			and the following classes.
-		
-
+In the following example the observer is watching changes in
+a
+`List`
+of
+`People`
+objects. For this example create a new Java project called
+_com.vogella.java.designpattern.observer_
+and the following classes.
 		
 [source,java]
 ----
 include::res/observer/MyModel.java[]
 ----
 		
-
-		
 [source,java]
 ----
 include::res/observer/MyObserver.java[]
 ----
-		
 
-		<para language="java">
 [source,text]
 ----
 include::res/observer/Main.java[]
 ----
-		
-
 
 [[observer_s1s2d]]
 === Evaluation
 		
-			The observer pattern allows for the
-			_Open Closed_
-			principle. This principle states that a class should be open for
-			extensions without the need to change the class.
+The observer pattern allows for the
+_Open Closed_
+principle. This principle states that a class should be open for
+extensions without the need to change the class.
 		
+Using the observer pattern a
+_subject_
+can register an unlimited number of observers. If
+a new
+listener wants
+to register with the subject, no code change
+in the
+subject
+is
+necessary.
 		
-			Using the observer pattern a
-			_subject_
-			can register an unlimited number of observers. If
-			a new
-			listener wants
-			to register with the subject, no code change
-			in the
-			subject
-			is
-			necessary.
-		
-		
-			Using the listener pattern decouples the subject from its
-			observers. Only the observers have direct knowledge about the
-			subject.
-		
-
+Using the listener pattern decouples the subject from its
+observers. Only the observers have direct knowledge about the
+subject.
 

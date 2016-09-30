@@ -1,41 +1,21 @@
-=  - Tutorial
+= Implementing the builder pattern in Java 8 - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
-Version 0.3, 29.08.2016
+Lars Vogel (c) 2013, 2016 vogella GmbH
+Version 1.2, 29.08.2016
 :docinfodir: ../
-:vgwort: XXX
+:vgwort: DesignPatternBuilder
 
 [abstract]
-
-=== Implementing the builder pattern in Java 8 - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<copyright>
-			<year>2013</year>
-			<year>2013</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-		<pubdate>010.12.2014</pubdate>
-		<releaseinfo>
-			Version 1.1 
-		</releaseinfo>
-[abstract]
-	=== Builder
-			 This article describes the "Builder" design pattern and its
-				implementation in the programming language Java with Java 8.
-			
-  
+Builder.
+This article describes the "Builder" design pattern and its implementation in the programming language Java with Java 8.
   
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::100_builder.adoc[]
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]
-
 

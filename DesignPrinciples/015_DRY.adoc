@@ -1,16 +1,18 @@
 [[java_DRY]]
 == DRY Principle
-	Dry is a shortcut for "Don't repeat yourself". For software it
-		means that it is good to rely on good libraries to achieve a certain
-		functionality rather than implementing it once again.
-	
-	So the first good step is to look for existing solution for a
-		certain problem.
-	
-	The other part is to implement the code in an abstract manner so
-		that it can be reused by others, who might face not exactly the same
-		issues, but similar ones.
-	
-	An example could be the creator of a file dialog, which might
-		just wanted to open particular files, but implemented it in a way so
-		that it is able to handle any file.
+
+Dry is a shortcut for "Don't repeat yourself". For software it
+means that it is good to rely on good libraries to achieve a certain
+functionality rather than implementing it once again.
+
+So the first good step is to look for existing solution for a
+certain problem.
+
+The other part is to implement the code in an abstract manner so
+that it can be reused by others, who might face not exactly the same
+issues, but similar ones.
+
+An example could be the creator of a file dialog, which might
+just wanted to open particular files, but implemented it in a way so
+that it is able to handle any file.
+

@@ -1,6 +1,6 @@
 [[java_design_principles_overview]]
 == Introduction to Java design principles
+
 [[java_design_principles_overview_defintion]]
 === Overview
-		<para/>
 

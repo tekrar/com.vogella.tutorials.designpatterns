@@ -1,53 +1,25 @@
-=  - Tutorial
+= Design Patterns in Java - Tutorial
 :linkcss:
 :sectnums:                                                          
 :experimental:
 :icons:
 :imagesdir: ./img
-Lars Vogel, (c) 2009, 2016 vogella GmbH
-Version 0.3, 29.08.2016
+Lars Vogel (c) 2007, 2016 vogella GmbH
+Version 0.5, 29.09.2016
 :docinfodir: ../
-:vgwort: XXX
+:vgwort: DesignPatterns
 
 [abstract]
-
-=== Design Patterns in Java - Tutorial
-		<author>
-			<firstname>Lars</firstname>
-			<surname>Vogel</surname>
-		</author>
-		<copyright>
-			<year>2007</year>
-			<year>2008</year>
-			<year>2009</year>
-			<year>2010</year>
-			<holder>vogella GmbH</holder>
-		</copyright>
-		<pubdate>30.12.2010</pubdate>
-		<releaseinfo>
-			Version 0.4
-		</releaseinfo>
-		
-[abstract]
-	=== Design Pattern
-			 Design Patterns are best practices how to solve common know
-				problems. This article will give an overview of best practices in
-				object-orientated programming and has pointers to some
-				design-pattern tutorials.
-			
-			
-  
+Design Pattern.
+Design Patterns are best practices how to solve common know problems. 
+This article will give an overview of best practices in object-orientated programming and has pointers to some design-pattern tutorials.
   
 include::../web/advertisement/afterTableOfContent.adoc[]
 include::100_introduction.adoc[]
 include::../web/advertisement/inBetween01.adoc[]
 include::120_ooprinciples.adoc[]
 include::200_pattern.adoc[]
-
 include::../support.adoc[]
 include::008_resourceslocal.adoc[]
 include::../copyright.adoc[]	
-
-
-
 

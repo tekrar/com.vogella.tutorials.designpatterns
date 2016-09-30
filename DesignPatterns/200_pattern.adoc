@@ -1,16 +1,13 @@
 [[pattern]]
 == Pattern
-	 Please see the following description for details on the design
-		pattern.
+
+Please see the following description for details on the design pattern.
 	
-http://www.vogella.com/tutorials/DesignPatternSingleton/article.html[Singleton]
+* http://www.vogella.com/tutorials/DesignPatternSingleton/article.html[Singleton]
 	
+* http://www.vogella.com/tutorials/DesignPatternObserver/article.html[Observer]
 	
-http://www.vogella.com/tutorials/DesignPatternObserver/article.html[Observer]
+* http://www.vogella.com/tutorials/DesignPatternFacade/article.html[Facade]
 	
-	
-http://www.vogella.com/tutorials/DesignPatternFacade/article.html[Facade]
-	
-	
-http://www.vogella.com/tutorials/DesignPatternAdapter/article.html[Adapter]
+* http://www.vogella.com/tutorials/DesignPatternAdapter/article.html[Adapter]
 	
