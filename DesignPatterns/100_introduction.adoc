@@ -1,10 +1,8 @@
 [[designpattern_overview]]
 == Design pattern in software development
 
-Design patterns are proven solutions approaches to specific
-problems. A design pattern is not a
-framework and is not directly
-deployed via code.
+Design patterns are proven solutions approaches to specific problems. 
+A design pattern is not a framework and is not directly deployed via code.
 
 Design Pattern have two main usages:
 
@@ -14,9 +12,7 @@ For example if a developer tells another developer that he is using a _Singleton
 * Capture good practices: Design patterns capture solutions which have been successfully applied to problems. 
 By learning these patterns and the related problem, an unexperienced developer learns a lot about software design.
 
-Design pattern are based on the base principles of object
-orientated
-design.
+Design pattern are based on the base principles of object orientated design.
 
 * Program to an interface not an implementation
 * Favor object composition over inheritance
@@ -27,16 +23,5 @@ Design Patterns can be divided into:
 * Structural Patterns
 * Behavioral Patterns
 
-NOTE: The terminology
-_Design Pattern_
-in software development is primary
-based on the book
-_Design
-Patterns -
-Elements of
-Reusable Object-Oriented Software_
-from Erich
-Gamma,
-Richard Helm,
-Ralph Johnson und John Vlissides.
+NOTE: The terminology _Design Pattern_ in software development is primary based on the book _Design Patterns - Elements of Reusable Object-Oriented Software_ from Erich Gamma, Richard Helm, Ralph Johnson und John Vlissides.
 

@@ -4,22 +4,15 @@
 [[builder_definition]]
 === Definition
 
-The builder pattern provides a build object which is used
-to construct a complex object called the product. It encapsulates
-the logic of constructing the different pieces of the product.
+The builder pattern provides a build object which is used to construct a complex object called the product. 
+It encapsulates the logic of constructing the different pieces of the product.
 
 [[builder_example]]
 === Example
 
-Typically the builder pattern is implemented by an class which
-has
-several methods to configure the product. These methods typically
-return the builder object, this allows to use the builder via a
-fluent API, e.g, by calling methods directly after each other. Once
-the product is
-completely configured a
-`build()`
-method is called to construct the object.
+Typically the builder pattern is implemented by an class which has several methods to configure the product. 
+These methods typically return the builder object, this allows to use the builder via a fluent API, e.g, by calling methods directly after each other. 
+Once the product is completely configured a `build()` method is called to construct the object.
 
 Assume you have a data model like the following.
 
@@ -45,9 +38,8 @@ include::res/MainTest.java[]
 [[builder_evaluation]]
 === Evaluation
 
-The builder pattern simplifies the creation of objects. It also
-simplifies the code as your do not have to call a complex constructor
-or call several setter methods on the created object.
+The builder pattern simplifies the creation of objects. 
+It also simplifies the code as your do not have to call a complex constructor or call several setter methods on the created object.
 
 The builder pattern can be used to create an immutable class.
 

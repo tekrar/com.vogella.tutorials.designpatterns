@@ -1,164 +1,87 @@
 == Object Orientated Programming
 
-OO programming suggests that you use the following principles
-during the design of a software. The following are not "Design
-Principles" but a repetition of a good OO design.
+OO programming suggests that you use the following principles during the design of a software. 
+The following are not "Design Principles" but a repetition of a good OO design.
 
 [[chapter20s1s2a]]
 === Encapsulation
 
-In general a general manipulation of an object's variables
-by
-other objects or classes is discouraged to ensure data
-encapsulation.
-A class should provide methods through which
-other objects could
-access variables. Java deletes objects
-which are not longer used
-(garbage collection).
+In general a general manipulation of an object's variables by other objects or classes is discouraged to ensure data encapsulation.
+A class should provide methods through which other objects could access variables. 
+Java deletes objects which are not longer used (garbage collection).
 
 [[chapter20s1as2b]]
 === Abstraction
 
-Java support the abstraction of data definition and concrete
-usage of this definition.
+Java support the abstraction of data definition and concrete usage of this definition.
 
-The concept is divided from the concrete which means you
-first
-define a class containing the variables and the
-behavior (methods) and
-afterwards you create the real
-objects which then all behave like the
-class defined it.
+The concept is divided from the concrete which means you first define a class containing the variables and the behavior (methods) and afterwards you create the real objects which then all behave like the class defined it.
 
-A class is the definition of the behavior and data. A class
-can
-not be directly be used.
+A class is the definition of the behavior and data. 
+A class can not be directly be used.
 
-A object in an instance of this class and is the real object
-which can be worked with.
+A object in an instance of this class and is the real object which can be worked with.
 
 [[chapter20s1as2c]]
 === Polymorphisms
 
-The ability of object variables to contain objects of
-different
-classes. If class X1 is a subclass of class X then
-a method which is
-defined with a parameter for an object X
-can also get called which an
-object X1.
+The ability of object variables to contain objects of different classes. 
+If class X1 is a subclass of class X then a method which is defined with a parameter for an object X can also get called which an object X1.
 
-If you define a supertype for a group of classes any
-subclass of
-that supertype can be substituted where the
-supertype is expected.
+If you define a supertype for a group of classes any subclass of that supertype can be substituted where the supertype is expected.
 
-If you use an interface as a polymorphic type any object
-which
-implements this interface can be used as arguments.
+If you use an interface as a polymorphic type any object which implements this interface can be used as arguments.
 
 [[chapter20s1as2d]]
 === Inheritance
 
 Inheritance allows that classes can be based on each other.
-If a
-class A inherits another class B this is called "class
-A extends class
-B".
+If a class A inherits another class B this is called "class A extends class B".
 
-For example you can define a base class which provides
-certain
-logging functionality and this class is extended by
-another class
-which adds email notification to the
-functionality.
+For example you can define a base class which provides certain logging functionality and this class is extended by another class which adds email notification to the functionality.
 
 === Delegation
 
-Delegation is when you hand over the responsibility for a
-particular task to another class or method.
+Delegation is when you hand over the responsibility for a particular task to another class or method.
 
-If you need to use functionality in another class but you
-do not
-want to change that functionality then use delegation
-instead of
-inheritance.
+If you need to use functionality in another class but you do not want to change that functionality then use delegation instead of inheritance.
 
 === Composition
 
-When you refer to a whole family of behavior then you use
-composition. Here you program against an interface and then
-any class
-which implements this interface can be used to be
-defined. In
-composition the composition class is still
-defined in the calling
-class.
+When you refer to a whole family of behavior then you use composition. 
+Here you program against an interface and then any class which implements this interface can be used to be defined. 
+In composition the composition class is still defined in the calling class.
 
-When you use composition, the composing object owns the
-behaviors is uses and they stop existing as soon as the
-composing
-object does.
+When you use composition, the composing object owns the behaviors is uses and they stop existing as soon as the composing object does.
 
 === Aggregation
 
-Aggregation allows you to use behavior from another class
-without limiting the lifetime of those behaviors.
+Aggregation allows you to use behavior from another class without limiting the lifetime of those behaviors.
 
-Aggregation is when one class is used as part of another
-class
-but still exists outside of that class.
+Aggregation is when one class is used as part of another class but still exists outside of that class.
 
 === Design by contract
 
-Programming by contract assumes both sides in a transaction
-understand what actions generate what behavior and will
-abide by that
-contact.
+Programming by contract assumes both sides in a transaction understand what actions generate what behavior and will abide by that contact.
 
-Methods usually return null or unchecked exceptions when
-errors
-occurs in programming by contract environment.
+Methods usually return null or unchecked exceptions when errors occurs in programming by contract environment.
 
-If you believe that a method should not get called in a
-certain
-way just throw an unchecked runtime exception. This
-can be really
-powerful. Instead of checking in your calling
-code for exceptions you
-just throw an exception in the
-called code. Therefore you can easier
-identify the place in
-the coding their an error occurs. This follows
-the
-"crash-early" principle, which tells that if an error occurs
-in
-your software you should crash immediately and not later
-in the
-program because then it is hard to find the error.
+If you believe that a method should not get called in a certain way just throw an unchecked runtime exception. 
+This can be really powerful. 
+Instead of checking in your calling code for exceptions you just throw an exception in the called code. 
+Therefore you can easier identify the place in the coding their an error occurs. 
+This follows the "crash-early" principle, which tells that if an error occurs in your software you should crash immediately and not later in the program because then it is hard to find the error.
 
 === Cohesion
 
 A system should have a high cohesion.
 
-Cohesion is a measure of how strongly-related and focused
-the
-responsibilities of a single class are. In
-object-oriented
-programming, it is beneficial to assign
-responsibilities to classes in
-a way that keeps cohesion
-high.
+Cohesion is a measure of how strongly-related and focused the responsibilities of a single class are. 
+In object-oriented programming, it is beneficial to assign responsibilities to classes in a way that keeps cohesion high.
 
-Code readability and the likelihood of reuse is
-increased, while
-complexity is kept manageable, in a
-highly-cohesive system.
+Code readability and the likelihood of reuse is increased, while complexity is kept manageable, in a highly-cohesive system.
 
-Therefore you should avoid classes which have several
-responsibilities, e.g. a Logger class should only be responsible for
-logging.
+Therefore you should avoid classes which have several responsibilities, e.g. a Logger class should only be responsible for logging.
 
 === The Principle of Least Knowledge
 
@@ -168,32 +91,14 @@ Also known as Law of Demeter.
 
 === The Open Closed Principle
 
-Software entities like classes, modules and functions
-should be open for extension but closed for
-modifications.
+Software entities like classes, modules and functions should be open for extension but closed for modifications.
 
-This principles encourages developers to write code that can
-be
-easily extended with only minimal or no changes to
-existing code.
+This principles encourages developers to write code that can be easily extended with only minimal or no changes to existing code.
 
-An example for a good application of this principles would
-be
-that a certain class calls internally an abstract class
-to conducted a
-certain behavior. At runtime this class is
-provided with an concrete
-implementation of this abstract
-class. This allows the developer later
-to implement another
-concrete calls of this abstract class without
-changing the
-code of the class which uses this abstract class.
+An example for a good application of this principles would be that a certain class calls internally an abstract class to conducted a certain behavior. 
+At runtime this class is provided with an concrete implementation of this abstract class. 
+This allows the developer later to implement another concrete calls of this abstract class without changing the code of the class which uses this abstract class.
 
-Another excellent example is the Eclipse Extension Point
-method.
-Eclipse Plugins or Eclipse based application can
-define extension
-points where other plugs-ins can later add
-functionality.
+Another excellent example is the Eclipse Extension Point method.
+Eclipse Plugins or Eclipse based application can define extension points where other plugs-ins can later add functionality.
 
