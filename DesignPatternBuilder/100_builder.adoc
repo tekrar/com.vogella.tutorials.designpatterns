@@ -1,5 +1,5 @@
 [[builderpattern]]
-== Builder
+== The builder pattern
 
 [[builder_definition]]
 === Definition
@@ -11,7 +11,8 @@ It encapsulates the logic of constructing the different pieces of the product.
 === Example
 
 Typically the builder pattern is implemented by an class which has several methods to configure the product. 
-These methods typically return the builder object, this allows to use the builder via a fluent API, e.g, by calling methods directly after each other. 
+These methods typically return the builder object.
+This allows to use the builder via a fluent API, e.g, by calling methods directly after each other. 
 Once the product is completely configured a `build()` method is called to construct the object.
 
 Assume you have a data model like the following.

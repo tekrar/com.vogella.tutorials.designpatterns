@@ -1,10 +1,11 @@
 [[singleton]]
-== Singletons in Java
+== The singletons pattern in Java
 
 [[singleton_overview]]
 === Overview
 
-A singleton in Java is a class for which only one instance can be created provides a global point of access this instance. 
+A singleton in Java is a class for which only one instance can be created.
+It provides a global point of access this instance.
 The singleton pattern describe how this can be archived.
 
 Singletons are useful to provide a unique source of data or functionality to other Java Objects. 
@@ -15,7 +16,7 @@ For example you may use a singleton to access your data model from within your a
 
 The possible implementation of Java depends on the version of Java you are using.
 As of Java 6 you can singletons with a single-element enum type. 
-This way is currently the best way to implement a singleton in Java 1.6 or later according to tht book `Effective Java` from Joshua Bloch.
+This way is currently the best way to implement a singleton in Java 1.6 or later according to the book `Effective Java` from Joshua Bloch.
 
 [source,java]
 ----

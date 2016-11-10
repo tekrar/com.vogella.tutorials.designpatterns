@@ -1,5 +1,5 @@
 [[observer]]
-== Observer Pattern
+== The observer pattern
 
 [[observer_definition]]
 === Definition
